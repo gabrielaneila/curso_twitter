@@ -4,7 +4,7 @@ class CreateTableTweetsUsers < ActiveRecord::Migration
   t.belongs_to :tweet
   t.belongs_to :user
   end
-
+end
   def self.down
   drop_table :tweets_users
   end
