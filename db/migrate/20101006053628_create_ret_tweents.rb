@@ -1,6 +1,7 @@
 class CreateRetTweents < ActiveRecord::Migration
   def self.up
     create_table :ret_tweents do |t|
+      t.text :comment
 
       t.timestamps
     end
